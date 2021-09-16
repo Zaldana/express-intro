@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 let teamArray = [
     { id: 1, teamName: "lakers" },
     { id: 2, teamName: "knicks" },
-    { id: 3 teamName: "nets" }]
+    { id: 3 teamName: "nets" }] 
 
 app.get('/', function (req, res) {
     res.render("index");
